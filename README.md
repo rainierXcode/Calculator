@@ -17,9 +17,11 @@ Give Calc-U-Later a try for hassle-free and efficient calculations!
 ## Future Enhancements:
 
 * **Parentheses for PEMDAS:** Planned enhancement to incorporate parentheses support for complex calculations.
-<br>
+
+  
 * **Percentage Calculation:** Future addition of percentage calculation capability.
-<br>
+
+  
 * **Scientific Calculator:** Aspire to transform Calc-U-Later into a comprehensive scientific calculator.
 
 ![Alt text](image-1.png)
