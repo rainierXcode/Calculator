@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="input">
+        <input type="text" value="0" dir="rtl" id="expressionInput" readonly />
+      </div>
+
+      <div class="expressionArea">
+         <button class="color"  onclick="clearInput()">C</button>
+         <button class="color">+-</button>
+         <button class="color">%</button>
+         <button class="color" onclick="addThis()">+</button>
+         <button class="color1" onclick="viewInput(7)">7</button>
+         <button class="color1" onclick="viewInput(8)">8</button>
+         <button class="color1" onclick="viewInput(9)">9</button>
+         <button class="color" onclick="subtractThis()">-</button>
+         <button class="color1" onclick="viewInput(4)">4</button>
+         <button class="color1" onclick="viewInput(5)">5</button>
+         <button class="color1" onclick="viewInput(6)">6</button>
+         <button class="color">X</button>
+         <button class="color1" onclick="viewInput(1)">1</button>
+         <button class="color1" onclick="viewInput(2)">2</button>
+         <button class="color1" onclick="viewInput(3)">3</button>
+         <button class="color">/</button>
+         <button id="equal" class="color1" onclick="calculateThis()">=</button>
+         <button class="color1" onclick="viewInput(0)">0</button>
+         <button class="color1">.</button>
+    </div>
+    
+    
+    </div>
+  </body>
+</html>
